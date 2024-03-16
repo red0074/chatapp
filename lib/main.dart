@@ -19,10 +19,10 @@ void main() async {
   } else {
     await Firebase.initializeApp(
         options: FirebaseOptions(
-            apiKey: "AIzaSyDbZ-91VTzT_xq-D180Q8TNby6AahmDCG0",
-            appId: "1:5787192523:android:9f9daee5310cac98699f4e",
-            messagingSenderId: "5787192523",
-            projectId: "chatapp-2afaa"));
+            apiKey: "apikey",
+            appId: "appid",
+            messagingSenderId:"messaginingid",
+            projectId: "projectid"));
   }
 
   runApp(const MyApp());
