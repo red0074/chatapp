@@ -1,0 +1,4 @@
+1.connect firebase to android
+2.to web
+while we use firebase.initializeApp()-> it is only to android
+for web we need to use options
